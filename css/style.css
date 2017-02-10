@@ -1,5 +1,15 @@
+html{
+    box-sizing: border-box;
+}
+html:before{
+    box-sizing: border-box;
+}
+html:after{
+    box-sizing: border-box;
+}
 body{
     margin: 0px;
+    box-sizing: border-box;
 }
 hr{
         margin-top: 20px;
@@ -12,6 +22,7 @@ a{
 }
 div{
     margin: 0px; 
+    box-sizing: border-box;
 }
 .navbar_bcs{
     	float:top;
@@ -22,13 +33,49 @@ div{
     .container_bcs{
     	padding-right: 15px;
     	padding-left: 15px;
-        box-sizing: border-box;
+        box-sizing:border-box; 
         display: table;
        
     }
 
     @media screen and (min-width: 1200px){
         .container_bcs{
+            width:100%;
+        }
+        .row_bcs{
+            width:100%;
+        }
+    } 
+    
+     @media screen and (min-width: 992px){
+        .container_bcs{
+            width:100%;
+        }
+         .row_bcs{
+            width:100%;
+        }
+    } 
+     @media screen and (min-width: 768px){
+        .container_bcs{
+            width:100%;
+        }
+         .row_bcs{
+            width:100%;
+        }
+    } 
+     @media screen and (min-width: 768px){
+        .container_bcs{
+            width:100%;
+        }
+         .row_bcs{
+            width:100%;
+        }
+    } 
+     @media screen and (min-width: 400px){
+        .container_bcs{
+            width:100%;
+        }
+         .row_bcs{
             width:100%;
         }
     } 
@@ -63,7 +110,7 @@ div{
     	width:100%;
     	height:10%;
     }
-    @media  screen and (max-width: 944px){
+    @media  screen and (max-width: 768px){
         .navbar-hidden{
             display:none;
         }
@@ -71,29 +118,38 @@ div{
             display: none;
         }
     }
-    @media screen and (min-width: 1360px){
+    /*@media (min-width: 1360px){
         .row_bcs{
             width:100%;
         }
     }
+*/
     .row_bcs{
     	margin-left: -15px;
     	margin-right: -15px;
         box-sizing: border-box;
         padding:10px;
         display:table;
+        width:100%;
       /*  position:relative;*/
     }
     .no-margin{
         margin: 0px;
         padding:0px;
     }
+    .col-size-8{
+        width:66.6666%;
+        float:left;
+        box-sizing: border-box;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
     .col-size-6{
     	width:50%;
     	float:left;
         box-sizing: border-box;
-        position: relative;
-        /*display: table;*/
         position: relative;
         min-height: 1px;
         padding-right: 15px;
@@ -143,7 +199,7 @@ div{
     .about{
      
     }
-    .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    .img-responsive,{
     display: block;
     max-width: 100%;
     height: auto;
@@ -157,6 +213,10 @@ div{
         border: 0;  
         }
     .col-size-6 ul{
+        list-style: none;
+        -webkit-padding-start: 0px;
+    }
+    .col-size-8 ul{
         list-style: none;
         -webkit-padding-start: 0px;
     }
@@ -214,6 +274,23 @@ div{
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }*/
+/*@media (max-width: 1360px;){
+.container_bcs{
+    width:100%;
+}
+.row_bcs{
+width:1360px;
+}
+.col-size-6{
+
+}
+.col-offset-size-3{
+margin-left: 25%;
+}
+}*/
+.col-offset-size-5{
+    margin-left: 20%
+}
 .image4-custom{
     width:100%;
 }
@@ -317,3 +394,75 @@ textarea {
 height: 80px;
 background-color: #1BBD36;
 }
+.footer .col-size-6 ul li{
+    display: inline;
+
+}
+.fb{
+    font-size: 20px;
+    color: #ddd;
+    padding: 10px;
+}
+.twitter{
+    font-size: 20px;
+    color: #ddd;
+    padding: 10px;
+}
+.gplus{
+    font-size: 20px;
+    color: #ddd;
+    padding: 10px;
+}
+.linkedin{
+    font-size: 20px;
+    color: #ddd;
+    padding: 10px;
+}
+.ytube{
+    font-size: 20px;
+    color: #ddd;
+    padding: 10px;
+}
+.float-right{
+float: right;
+}
+.p-margin{
+    margin:0px 0px;
+}
+.margin-top{
+    margin-top: 20px;
+}
+.p-geneza{
+    margin: 0px 0px;
+}
+.margin-query{
+    padding-left: 100px;
+}
+.query{
+    background-image:url(images/contact.png);
+    background-position-x: 95%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+}
+.image8-custom{
+    width:100%;
+}
+.container_bcs-full{
+    padding: 0px;
+}
+
+/*.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}*/
+
+
+
