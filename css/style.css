@@ -27,7 +27,7 @@ div{
 .navbar_bcs{
     	float:top;
     	width: 100%;
-    	height:50px;
+    	height:79px;
     	top:0;
     }
     .container_bcs{
@@ -79,18 +79,19 @@ div{
             width:100%;
         }
     } 
+
     .container-color{
         background-color: #eee;
     }
-  
-   
+    
     .navbar_bcs-right{
     	float: right;
+        padding-top: 13px;
        /* margin-left: 640px;*/
     }
     .navbar_bcs-brand{
     	float: left;
-    	padding:20px; 
+    	padding:30px 20px; 
     }
 
     .navbar_bcs .container_bcs .navbar_bcs-brand a{
@@ -116,6 +117,18 @@ div{
         }
         .navbar_bcs-right{
             display: none;
+        }
+        .col-size-6{
+            width:100%;
+            float:left;
+        }
+        .col-size-4{
+             width:100%;
+            float:left;
+        }
+        .col-size-3{
+             width:100%;
+            float:left;
         }
     }
     /*@media (min-width: 1360px){
@@ -450,19 +463,6 @@ float: right;
 .container_bcs-full{
     padding: 0px;
 }
-
-/*.navbar-toggle {
-    position: relative;
-    float: right;
-    padding: 9px 10px;
-    margin-top: 8px;
-    margin-right: 15px;
-    margin-bottom: 8px;
-    background-color: transparent;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-}*/
 
 
 
