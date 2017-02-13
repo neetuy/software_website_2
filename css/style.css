@@ -24,11 +24,16 @@ div{
     margin: 0px; 
     box-sizing: border-box;
 }
+.navbar-fixed-top{
+    position:fixed;
+    top:0;
+    z-index: 1030;
+}
 .navbar_bcs{
     	float:top;
     	width: 100%;
     	height:79px;
-    	top:0;
+    	background-color: #fff; 
     }
     .container_bcs{
     	padding-right: 15px;
@@ -36,8 +41,9 @@ div{
         box-sizing:border-box; 
         display: table;
        
-    }
 
+    }
+   
     @media screen and (min-width: 1200px){
         .container_bcs{
             width:100%;
@@ -102,9 +108,10 @@ div{
     }
     .navbar_bcs .container_bcs .navbar_bcs-right  li{
     display: inline;
+    padding:20px;
     }
     .navbar_bcs .container_bcs .navbar_bcs-right  a{
-    padding:20px;
+    /*padding:20px;*/
     text-decoration: none;
     }
     .img1-custom{
@@ -243,6 +250,7 @@ div{
     .navbar_bcs-below{
         height: 60px;
         background-color:#1BBD36;
+        margin-top: 80px;
     }
     .navbar_bcs-below .container_bcs ul{
         list-style: none;
