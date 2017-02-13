@@ -1,5 +1,5 @@
 
-$(document).ready(function() {
+   $(document).ready(function() {
 
             $('a').hover(
             
@@ -8,8 +8,8 @@ $(document).ready(function() {
                }, 
             
                function () {
-                  $(this).css({"color":"#000"});
+                  $(this).css({"color":""});
                }
             );
-            // $('.active').css({"color":"#1BBD36"});
-         });
+   });
+
