@@ -27,12 +27,12 @@ div{
 .navbar-fixed-top{
     position:fixed;
     top:0;
-    z-index: 1030;
+    z-index:1030;
 }
 .navbar_bcs{
     	float:top;
     	width: 100%;
-    	height:79px;
+    	/*height:79px;*/
     	background-color: #fff; 
     }
     .container_bcs{
@@ -75,7 +75,7 @@ div{
         .container_bcs{
             width:100%;
         }
-         
+      
     } 
 
     .container-color{
@@ -108,9 +108,41 @@ div{
     font-size: 18px;
     }
     .img1-custom{
-    	width:100%;
-    	height:10%;
+    background-image:url(images/slider/images1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height:760px;
+    width:100%;
+    position: relative;
     }
+    .home-margin-top{
+        margin-top:140px;
+    }
+    .margin-content-home{
+        margin-top:140px; 
+    }
+    .margin-content-home h2{
+       color: #fff;
+        text-transform: uppercase;
+        font-size: 50px;
+        font-weight: 600;  
+        font-family: sans-serif;
+    }
+     .margin-content-home h2 span{
+       color: #1BBD36;;
+        text-transform: uppercase;
+        font-size: 50px;
+        font-weight: 600;  
+        font-family: sans-serif;
+    }
+    .margin-content-home p{
+        font-weight: 400;
+        font-size: 25px;
+        padding-left: 20px;
+        font-family: sans-serif;
+    }
+   
       @media (max-width: 940px){
         /*.home-team .col-size-6{
             width:100% !important;
@@ -126,8 +158,16 @@ div{
         }
         .navbar_bcs-right{
             display: none;
-        }
-    
+       
+    }
+     }
+    /* @media (max-width: 500px){
+        .img1-custom{
+        height:200px;
+    }*/
+    .img2-custom{
+            height: 130px;
+     }
     }
    
     .row_bcs{
@@ -176,7 +216,7 @@ div{
         padding: 20px;
     }
     .img2-custom{
-    	width:100%;
+    	
         border-radius: 5px; 
     }
     .about-padding{
@@ -194,6 +234,11 @@ div{
    /* .container_about{
         height:100%;
     }*/
+    .home{
+        margin-top:50px;
+        /*width:100%;*/
+        position:relative;
+    }
     .about{
      padding:20px;
     }
@@ -205,6 +250,7 @@ div{
 
     img {
     vertical-align: middle;
+    max-width:100%;
     }
 
     img {
@@ -295,7 +341,6 @@ div{
 .img-responsive{
     display: block;
     max-width: 100%;
-    height: auto;
 }
 .career{
     margin: 20px;
@@ -438,7 +483,7 @@ padding-right: 30px;
 .query{
     background-image:url(images/contact.png);
     background-position-x: 95%;
-    background-position-y: 0%;
+    background-position-y: 30%;
     background-repeat: no-repeat;
 }
 .image8-custom{
@@ -526,7 +571,6 @@ padding-right: 30px;
     padding-right: 15px;
     padding-left: 15px;
 }
-
 }
 .text-center{
     text-align: center;
