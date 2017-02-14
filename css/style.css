@@ -161,15 +161,13 @@ div{
             display: none;
        
     }
-     }
-    /* @media (max-width: 500px){
-        .img1-custom{
-        height:200px;
-    }*/
-    .img2-custom{
-            height: 130px;
-     }
     }
+    @media(max-width: 992px){
+        .slider-img{
+            display: none;
+        }
+    }
+
    
     .row_bcs{
     	margin-left: -15px;
@@ -219,6 +217,7 @@ div{
     .img2-custom{
     	
         border-radius: 5px; 
+        width: 100%;
     }
     .about-padding{
     	/*padding:20px;*/
@@ -487,7 +486,7 @@ padding-right: 30px;
 .query{
     background-image:url(images/contact.png);
     background-position-x: 95%;
-    background-position-y: 30%;
+    background-position-y: 50%;
     background-repeat: no-repeat;
 }
 .image8-custom{
