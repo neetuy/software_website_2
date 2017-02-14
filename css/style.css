@@ -154,6 +154,7 @@ div{
             display:none;
         }
         .row_bcs{
+
             width:100%;
         }
         .navbar_bcs-right{
@@ -262,7 +263,7 @@ div{
     }
     .col-size-8 ul{
         list-style: none;
-        -webkit-padding-start: 0px;
+       
     }
     .col-size-6 ul li h3 a{
         margin:5px 0px;
@@ -464,6 +465,9 @@ padding: 20px;
     color: #ddd;
     padding: 10px;
 }
+.float-left{
+    float:left;
+}
 .float-right{
 float: right;
 padding-right: 30px;
@@ -475,7 +479,7 @@ padding-right: 30px;
     margin-top: 20px;
 }
 .p-geneza{
-    margin: 0px 0px;
+    margin: 0px 45px;
 }
 .margin-query{
     padding-left: 100px;
@@ -516,6 +520,7 @@ padding-right: 30px;
 }
 .row_bcs{
     width:100%;
+    display: table;
 }
 }
 @media (min-width: 768px){
@@ -572,6 +577,18 @@ padding-right: 30px;
     padding-left: 15px;
 }
 }
+
 .text-center{
     text-align: center;
+}
+.fa-custom-size{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.fa-size{
+    font-size: 40px !important;
+    color: #1BBD36 !important;
+    padding:5px; 
+    background-color: #000;
+    border-radius: 5px;
 }
