@@ -46,31 +46,26 @@ div{
 
     }
    
-    @media screen and (min-width: 1200px){
+    @media(min-width: 1200px){
         .container_bcs{
             width:100%;
         }
         
     } 
     
-     @media screen and (min-width: 992px){
+     @media(min-width: 992px){
         .container_bcs{
             width:100%;
         }
          
     } 
-     @media screen and (min-width: 768px){
+     @media(min-width: 768px){
         .container_bcs{
             width:100%;
         }
          
     } 
-     @media screen and (min-width: 768px){
-        .container_bcs{
-            width:100%;
-        }
-        
-    } 
+      
      @media screen and (min-width: 400px){
         .container_bcs{
             width:100%;
@@ -614,3 +609,4 @@ padding-right: 30px;
     padding:20px;
     float:right;
 }
+
