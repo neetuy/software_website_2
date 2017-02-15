@@ -11,5 +11,11 @@
                   $(this).css({"color":""});
                }
             );
+            $("button").click(function(event){
+               $(".toggle").toggle('slow', function(){
+                 
+               });
+            });
+
    });
 
