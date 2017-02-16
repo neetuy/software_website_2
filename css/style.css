@@ -38,8 +38,7 @@ p{
 }
 .navbar_bcs{
     	float:top;
-    	width: 100%;
-    	/*height:79px;*/
+
     	background-color: #fff; 
     }
     .container_bcs{
@@ -49,12 +48,13 @@ p{
         display: table;
          margin-right: auto;
          margin-left: auto;
-       
-
     }
    
     @media(min-width: 1200px){
         .container_bcs{
+            width:100%;
+        }
+        .navbar_bcs{
             width:100%;
         }
         
@@ -64,7 +64,9 @@ p{
         .container_bcs{
             width:100%;
         }
-         
+          .navbar_bcs{
+            width:100%;
+        }
     } 
      @media(min-width: 768px){
         .container_bcs{
@@ -77,7 +79,9 @@ p{
         .container_bcs{
             width:100%;
         }
-      
+       .navbar_bcs{
+            width:100%;
+        }
     } 
 
     .container-color{
@@ -94,7 +98,9 @@ p{
     	padding:30px 20px; 
 
     }
-
+    .navbar-padding{
+        padding:0px 25px;
+    }
     .navbar_bcs .container_bcs .navbar_bcs-brand a{
     	text-decoration: none;
         color:#1BBD36;
@@ -106,7 +112,7 @@ p{
     }
     .navbar_bcs .container_bcs .navbar_bcs-right  li{
     display: inline;
-    padding:20px;
+    padding:16px;
     }
     .navbar_bcs .container_bcs .navbar_bcs-right  a{
     /*padding:20px;*/
@@ -120,7 +126,6 @@ p{
     background-size: cover;
     background-position: 50% 50%;
     height:760px;
-    width:100%;
     position: relative;
     }
     .home-margin-top{
@@ -177,7 +182,6 @@ p{
     	margin-right: -15px;
         box-sizing: border-box;
         padding:10px;
-        display:table;
        
     }
     .no-margin{
@@ -189,7 +193,7 @@ p{
         box-sizing: border-box;
         position: relative;
         min-height: 1px;
-       padding: 20px;
+        padding: 20px;
     }
     .col-size-6{
     	
@@ -202,7 +206,6 @@ p{
      
         box-sizing: border-box;
         position:relative;
-        display: table;
         position: relative;
         min-height: 1px;
         padding:20px; 
@@ -212,7 +215,6 @@ p{
       
         box-sizing: border-box;
         position: relative;
-        display: table;
         position: relative;
         min-height: 1px;
         padding: 20px;
@@ -238,8 +240,7 @@ p{
         height:100%;
     }*/
     .home{
-        margin-top:50px;
-        /*width:100%;*/
+       
         position:relative;
     }
     .about{
@@ -533,16 +534,12 @@ padding-right: 30px;
     width: 25%;
     float: left;
 }
-.row_bcs{
-    width:100%;
-    display: table;
-}
 }
 @media (min-width: 768px){
-/*.col-size-3, .col-size-6, .col-size-4 {
+.col-size-3, .col-size-6, .col-size-4 {
     float: left;
 
-}*/
+}
 .col-size-3, .col-size-6, .col-size-4
  {
     position: relative;
@@ -561,26 +558,21 @@ padding-right: 30px;
 @media (min-width: 992px){
     .col-size-8{
         width:66.6666%;
-        float:left;
+        
     }
     .col-size-6 {
     width: 50%;
-    float: left;
    
     }
 .col-size-4{
     width: 33.333%;
-    float: left;
 }
 .col-size-3 {
     width: 25%;
-    float: left;
+  
 }
-.row_bcs{
-    width:100%;
-}
-.col-offset-size-5{
-    margin-left: 20%
+.col-offset-size-6{
+    margin-left: 50%
 }
 .col-offset-size-3{
     margin-left: 25%;
@@ -607,7 +599,8 @@ padding-right: 30px;
 }
 
 .text-center{
-    text-align: center;
+   text-align: center;
+   display: block;
 }
 .fa-custom-size{
     margin-top: 15px;
@@ -628,11 +621,13 @@ padding-right: 30px;
     font-size: 20px !important;
     border-radius:5px;
     color:#1BBD36;
+    margin: 20px;
     background-color: transparent;
 }
-
-.align-button{
-    padding:20px;
-    float:right;
+.home-team .container_bcs .col-size-6 h2{
+color:#1BBD36;
+}
+.home-team h1{
+color:#1BBD36;
 }
 
