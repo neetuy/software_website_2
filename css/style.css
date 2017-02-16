@@ -10,6 +10,8 @@ html:after{
 body{
     margin: 0px;
     box-sizing: border-box;
+    font-family: sans-serif;
+    font-color:#000;
 }
 hr{
         margin-top: 20px;
@@ -23,7 +25,12 @@ a{
 div{
     margin: 0px; 
     box-sizing: border-box;
+    font-family: sans-serif;
 }
+p{
+    font-family: sans-serif;
+}
+
 .navbar-fixed-top{
     position:fixed;
     top:0;
@@ -85,10 +92,14 @@ div{
     .navbar_bcs-brand{
     	float: left;
     	padding:30px 20px; 
+
     }
 
     .navbar_bcs .container_bcs .navbar_bcs-brand a{
     	text-decoration: none;
+        color:#1BBD36;
+        font-family: sans-serif;
+        font-weight: 700;
     }
     .navbar_bcs .container_bcs .navbar_bcs-right  ul{
     	list-style:none;
@@ -101,6 +112,7 @@ div{
     /*padding:20px;*/
     text-decoration: none;
     font-size: 18px;
+    font-family: sans-serif;
     }
     .img1-custom{
     background-image:url(images/slider/images1.jpg);
@@ -148,12 +160,9 @@ div{
         .navbar-hidden{
             display:none;
         }
-        .row_bcs{
-            width:100%;
-        }
+        
         .navbar_bcs-right{
             display: none;
-       
     }
     .icon{
         display: inline-block !important;
@@ -258,10 +267,24 @@ div{
         list-style: none;
        
     }
-    .col-size-6 ul li h3 a{
+    .palteform .col-size-6 ul li h3 {
         margin:5px 0px;
        color:#1BBD36;
        text-decoration: underline;
+       font-family: sans-serif;
+    }
+    .about-company .col-size-6 ul li h3 {
+        margin:5px 0px;
+       color:#1BBD36;
+       font-family: sans-serif;
+    }
+    .position_list h1{
+        font-size:1.8em;
+        font-family: sans-serif;
+    }
+     .about-company h2 {
+       color:#1BBD36;
+       font-family: sans-serif;
     }
     .home-team{
        padding:20px;
@@ -304,8 +327,7 @@ div{
         line-height: 1.5;
     }
     .team-h2{
-
-    text-align: center;
+        text-align: center;
     color: #1BBD36;
     font-weight: 500;
     font-size: 30px;
@@ -534,6 +556,7 @@ padding-right: 30px;
 .align-button{
     display: none;
 }
+
 }
 @media (min-width: 992px){
     .col-size-8{
@@ -567,10 +590,10 @@ padding-right: 30px;
 }
 }
 @media (min-width: 992px){
-/*.col-size-3, .col-size-6, .col-size-4 {
+.col-size-3, .col-size-6, .col-size-4 {
     float: left;
 
-}*/
+}
 .col-size-3, .col-size-6, .col-size-4
  {
     position: relative;
@@ -603,8 +626,11 @@ padding-right: 30px;
     padding:5px 5px !important; 
     float: right;
     font-size: 20px !important;
-    border-radius: 5px;
+    border-radius:5px;
+    color:#1BBD36;
+    background-color: transparent;
 }
+
 .align-button{
     padding:20px;
     float:right;

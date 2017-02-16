@@ -4,7 +4,7 @@
             $('a').hover(
             
                function () {
-                  $(this).css({"color":"red"});
+                  $(this).css({"color":"#1BBD36"});
                }, 
             
                function () {
