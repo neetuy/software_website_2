@@ -12,7 +12,7 @@
                }
             );
             $("button").click(function(event){
-               $(".collapse").collapse('slow', function(){
+               $(".collapse").toggle('slow', function(){
                
                });
             });
